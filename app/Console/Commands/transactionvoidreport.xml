@@ -1,0 +1,2202 @@
+<transactionvoidreport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonamespaceschemalocation="http://www.shareasale.com/XMLSchema/api/merchant/2.8/schema.xsd">
+<transactionvoidreportrecord>
+<transid>93552964</transid>
+<transdate>08/01/2017 07:07:03 PM</transdate>
+<voidtransid>3059049</voidtransid>
+<voiddate>2017-08-01 20:16:22.72</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>163.2</transamount>
+<commission>29.38</commission>
+<lastip>172.1.237.39</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100667509 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92861203</transid>
+<transdate>07/13/2017 10:26:38 PM</transdate>
+<voidtransid>3032351</voidtransid>
+<voiddate>2017-07-13 23:45:07.883</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>888452</userid>
+<organization>ZHU YONG</organization>
+<website>www.couponsfashion.com</website>
+<transamount>166.18</transamount>
+<commission>24.93</commission>
+<lastip>66.31.62.243</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>DEAL-379785</ubannernumb>
+<ubannerpage>http://www.couponsfashion.com/stores/m-Jeulia-Jewelry-coupons.html?gclid=CjwKEAjwtJzLBRC7z43vr63nr3wSJABjJDgJXYZbXkMoqEJdYhbWMx0OEjxxtkn0u9TM3OrNhEIDDhoCvCLw_wcB</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100655245 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92827103</transid>
+<transdate>07/13/2017 01:33:33 AM</transdate>
+<voidtransid>3031455</voidtransid>
+<voiddate>2017-07-13 04:19:35.517</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>136482</userid>
+<organization>Vertive, LLC (Offers.com, LLC.)</organization>
+<website>offers.com</website>
+<transamount>302.8</transamount>
+<commission>45.42</commission>
+<lastip>69.201.161.193</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100654510 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92817813</transid>
+<transdate>07/12/2017 08:15:45 PM</transdate>
+<voidtransid>3031003</voidtransid>
+<voiddate>2017-07-12 21:04:57.7</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>998519</userid>
+<organization>ASIA MALIK</organization>
+<website>www.couponcutcode.com</website>
+<transamount>90.4</transamount>
+<commission>13.56</commission>
+<lastip>71.51.11.106</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100654299 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92816036</transid>
+<transdate>07/12/2017 07:19:41 PM</transdate>
+<voidtransid>3030996</voidtransid>
+<voiddate>2017-07-12 20:24:06.21</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>90.4</transamount>
+<commission>13.56</commission>
+<lastip>173.21.141.242</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100654252 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92806342</transid>
+<transdate>07/12/2017 03:07:11 PM</transdate>
+<voidtransid>3030779</voidtransid>
+<voiddate>2017-07-12 15:14:20.273</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>553813</userid>
+<organization>EPM Inc.</organization>
+<website>www.ebates.com</website>
+<transamount>66.46</transamount>
+<commission>9.97</commission>
+<lastip>75.145.160.94</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Test Transaction Sale - 100654044 </comment>
+<voidreason>Test Transaction</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92779380</transid>
+<transdate>07/11/2017 09:31:19 PM</transdate>
+<voidtransid>3030313</voidtransid>
+<voiddate>2017-07-11 22:35:21.937</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>110.35</transamount>
+<commission>16.55</commission>
+<lastip>70.196.77.186</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100653516 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92720834</transid>
+<transdate>07/10/2017 01:15:32 PM</transdate>
+<voidtransid>3029202</voidtransid>
+<voiddate>2017-07-10 21:01:06.353</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>63.8</transamount>
+<commission>9.57</commission>
+<lastip>132.200.132.34</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100652356 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92672455</transid>
+<transdate>07/08/2017 10:35:25 PM</transdate>
+<voidtransid>3027495</voidtransid>
+<voiddate>2017-07-09 21:04:06.857</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>79.76</transamount>
+<commission>11.96</commission>
+<lastip>71.163.250.33</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100651136 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92675107</transid>
+<transdate>07/09/2017 12:48:19 AM</transdate>
+<voidtransid>3027494</voidtransid>
+<voiddate>2017-07-09 21:03:49.47</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>97.05</transamount>
+<commission>14.56</commission>
+<lastip>73.49.167.224</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100651224 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92617371</transid>
+<transdate>07/07/2017 09:52:43 AM</transdate>
+<voidtransid>3027493</voidtransid>
+<voiddate>2017-07-09 21:02:27.827</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>79.76</transamount>
+<commission>11.96</commission>
+<lastip>24.236.138.31</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100649766 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92647199</transid>
+<transdate>07/08/2017 01:12:46 AM</transdate>
+<voidtransid>3027492</voidtransid>
+<voiddate>2017-07-09 21:01:04.433</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>163.52</transamount>
+<commission>24.53</commission>
+<lastip>67.190.73.109</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100650446 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92610954</transid>
+<transdate>07/07/2017 01:59:41 AM</transdate>
+<voidtransid>3025523</voidtransid>
+<voiddate>2017-07-07 03:12:42.77</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>113.01</transamount>
+<commission>16.95</commission>
+<lastip>108.89.166.98</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100649589 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92598168</transid>
+<transdate>07/06/2017 05:45:57 PM</transdate>
+<voidtransid>3025424</voidtransid>
+<voiddate>2017-07-06 21:49:49.267</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>103.7</transamount>
+<commission>15.56</commission>
+<lastip>108.41.232.52</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100649267 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92597010</transid>
+<transdate>07/06/2017 05:08:30 PM</transdate>
+<voidtransid>3025423</voidtransid>
+<voiddate>2017-07-06 21:49:21.63</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>140.56</transamount>
+<commission>21.08</commission>
+<lastip>70.209.139.224</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100649232 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92584704</transid>
+<transdate>07/06/2017 11:23:28 AM</transdate>
+<voidtransid>3025422</voidtransid>
+<voiddate>2017-07-06 21:48:43.887</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>86.41</transamount>
+<commission>12.96</commission>
+<lastip>67.249.20.10</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100649000 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92584665</transid>
+<transdate>07/06/2017 11:22:23 AM</transdate>
+<voidtransid>3025388</voidtransid>
+<voiddate>2017-07-06 20:37:40.413</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>70.45</transamount>
+<commission>14.09</commission>
+<lastip>174.237.135.166</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100648997 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92587335</transid>
+<transdate>07/06/2017 12:37:21 PM</transdate>
+<voidtransid>3025387</voidtransid>
+<voiddate>2017-07-06 20:35:37.96</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>998519</userid>
+<organization>ASIA MALIK</organization>
+<website>www.couponcutcode.com</website>
+<transamount>46.51</transamount>
+<commission>6.98</commission>
+<lastip>72.211.244.69</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100649044 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92581665</transid>
+<transdate>07/06/2017 09:54:19 AM</transdate>
+<voidtransid>3025386</voidtransid>
+<voiddate>2017-07-06 20:34:23.49</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1282764</userid>
+<organization>Honey Science Corporation</organization>
+<website>www.joinhoney.com/partners</website>
+<transamount>110.35</transamount>
+<commission>16.55</commission>
+<lastip>69.147.202.226</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100648955 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92566120</transid>
+<transdate>07/05/2017 08:00:20 PM</transdate>
+<voidtransid>3023988</voidtransid>
+<voiddate>2017-07-05 21:07:03.053</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>110.35</transamount>
+<commission>16.55</commission>
+<lastip>24.60.71.26</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100648569 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92499847</transid>
+<transdate>07/03/2017 10:43:19 PM</transdate>
+<voidtransid>3022394</voidtransid>
+<voiddate>2017-07-04 01:09:57.89</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>998519</userid>
+<organization>ASIA MALIK</organization>
+<website>www.couponcutcode.com</website>
+<transamount>101.12</transamount>
+<commission>15.17</commission>
+<lastip>162.204.110.146</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100647179 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92499072</transid>
+<transdate>07/03/2017 10:16:51 PM</transdate>
+<voidtransid>3022393</voidtransid>
+<voiddate>2017-07-04 01:09:25.54</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1282764</userid>
+<organization>Honey Science Corporation</organization>
+<website>www.joinhoney.com/partners</website>
+<transamount>56.5</transamount>
+<commission>8.48</commission>
+<lastip>73.14.192.119</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100647156 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92458229</transid>
+<transdate>07/02/2017 05:57:48 PM</transdate>
+<voidtransid>3022262</voidtransid>
+<voiddate>2017-07-03 20:45:39.863</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1282764</userid>
+<organization>Honey Science Corporation</organization>
+<website>www.joinhoney.com/partners</website>
+<transamount>98.74</transamount>
+<commission>14.81</commission>
+<lastip>67.8.29.52</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100646089 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92338247</transid>
+<transdate>06/29/2017 10:16:50 AM</transdate>
+<voidtransid>3019861</voidtransid>
+<voiddate>2017-06-30 03:41:03.61</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>77.32</transamount>
+<commission>11.6</commission>
+<lastip>160.42.85.8</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100643106 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92351064</transid>
+<transdate>06/29/2017 03:45:49 PM</transdate>
+<voidtransid>3019860</voidtransid>
+<voiddate>2017-06-30 03:40:42.81</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>116.56</transamount>
+<commission>17.48</commission>
+<lastip>67.128.22.254</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100643350 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92370421</transid>
+<transdate>06/30/2017 02:35:56 AM</transdate>
+<voidtransid>3019859</voidtransid>
+<voiddate>2017-06-30 03:40:10.51</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>65.42</transamount>
+<commission>9.81</commission>
+<lastip>98.248.84.109</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100643814 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92285341</transid>
+<transdate>06/27/2017 09:47:54 PM</transdate>
+<voidtransid>3018397</voidtransid>
+<voiddate>2017-06-27 23:28:53.493</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>880833</userid>
+<organization>Bugadi Abhishek</organization>
+<website>clothingtrial.com</website>
+<transamount>165.33</transamount>
+<commission>24.8</commission>
+<lastip>98.249.206.2</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>DEAL-264210</ubannernumb>
+<ubannerpage>http://l.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2F2jegjqA&amp;h=ATPtYyLYRC6D0VV-H8V1cyQGGda0W3hyqkqif4plvsfSP1e0-gzeOT27DDiMdpprenKFQ63xHbGo8APqRhCU2QqTVGTAMONrDrduEy2iYHDi_Y0o8VY</ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100641801 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92244468</transid>
+<transdate>06/26/2017 09:59:27 PM</transdate>
+<voidtransid>3017305</voidtransid>
+<voiddate>2017-06-26 23:24:57.11</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>83.27</transamount>
+<commission>12.49</commission>
+<lastip>50.126.135.196</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100641180 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>92179529</transid>
+<transdate>06/25/2017 04:37:22 PM</transdate>
+<voidtransid>3016150</voidtransid>
+<voiddate>2017-06-25 21:07:23.49</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1282764</userid>
+<organization>Honey Science Corporation</organization>
+<website>www.joinhoney.com/partners</website>
+<transamount>66.28</transamount>
+<commission>9.94</commission>
+<lastip>173.31.235.0</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Repeat Order Sale - 100639831 </comment>
+<voidreason>Repeat Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>91160146</transid>
+<transdate>05/27/2017 11:36:38 PM</transdate>
+<voidtransid>2977565</voidtransid>
+<voiddate>2017-06-02 06:05:56.41</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>47.57</transamount>
+<commission>9.51</commission>
+<lastip>184.19.41.108</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100615594 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90891773</transid>
+<transdate>05/20/2017 08:07:11 PM</transdate>
+<voidtransid>2977564</voidtransid>
+<voiddate>2017-06-02 06:05:21.903</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1311222</userid>
+<organization>Juntr Saneyos</organization>
+<website>www.newmostwanted.com</website>
+<transamount>105.96</transamount>
+<commission>15.89</commission>
+<lastip>69.123.147.52</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.newmostwanted.com/immediately-jewelry-you-can-sell-from-home-cheapest</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100608721 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90576499</transid>
+<transdate>05/12/2017 05:23:21 PM</transdate>
+<voidtransid>2977562</voidtransid>
+<voiddate>2017-06-02 06:04:43.457</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>587784</userid>
+<organization>Chokchai manrian</organization>
+<website>www.iseebaseball.com</website>
+<transamount>124.06</transamount>
+<commission>18.61</commission>
+<lastip>174.223.0.177</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.iseebaseball.com/tips-westchester-jewelry-yonkers-order</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100599726 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90546364</transid>
+<transdate>05/11/2017 11:45:36 PM</transdate>
+<voidtransid>2977561</voidtransid>
+<voiddate>2017-06-02 06:04:09.42</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>84.96</transamount>
+<commission>16.99</commission>
+<lastip>108.185.226.220</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100598752 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90546304</transid>
+<transdate>05/11/2017 11:43:07 PM</transdate>
+<voidtransid>2977560</voidtransid>
+<voiddate>2017-06-02 06:03:33.903</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>84.96</transamount>
+<commission>16.99</commission>
+<lastip>108.185.226.220</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100598745 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90267274</transid>
+<transdate>05/04/2017 04:15:54 PM</transdate>
+<voidtransid>2977559</voidtransid>
+<voiddate>2017-06-02 06:03:04.337</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>68.99</transamount>
+<commission>13.8</commission>
+<lastip>173.18.170.73</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100588661 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90231938</transid>
+<transdate>05/03/2017 06:59:51 PM</transdate>
+<voidtransid>2977558</voidtransid>
+<voiddate>2017-06-02 06:02:15.83</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>587784</userid>
+<organization>Chokchai manrian</organization>
+<website>www.iseebaseball.com</website>
+<transamount>39.24</transamount>
+<commission>5.89</commission>
+<lastip>70.125.21.50</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.iseebaseball.com/tips-westchester-jewelry-yonkers-order</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100587598 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>90123233</transid>
+<transdate>05/01/2017 06:15:42 AM</transdate>
+<voidtransid>2977557</voidtransid>
+<voiddate>2017-06-02 06:01:42.003</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>68.99</transamount>
+<commission>10.35</commission>
+<lastip>73.191.105.181</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100584547 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89924205</transid>
+<transdate>04/26/2017 01:52:30 AM</transdate>
+<voidtransid>2955910</voidtransid>
+<voiddate>2017-05-18 22:19:28.91</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1294286</userid>
+<organization>Sophine Khodgaw</organization>
+<website>www.playoffsporthit.com</website>
+<transamount>50.97</transamount>
+<commission>7.65</commission>
+<lastip>47.33.177.156</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.playoffsporthit.com/buy-jewelry-red-ring-comparison</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100579175 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89839619</transid>
+<transdate>04/24/2017 01:25:03 AM</transdate>
+<voidtransid>2955909</voidtransid>
+<voiddate>2017-05-18 22:18:58.67</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>941531</userid>
+<organization>Samran Sanyos</organization>
+<website>www.sandp500fund.com</website>
+<transamount>62.03</transamount>
+<commission>9.3</commission>
+<lastip>68.195.149.235</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>765382</ubannernumb>
+<ubannerpage>http://www.sandp500fund.com/lowprice-beauty-unlimited-discount</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100577190 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89808534</transid>
+<transdate>04/23/2017 03:16:15 AM</transdate>
+<voidtransid>2955908</voidtransid>
+<voiddate>2017-05-18 22:18:31.75</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>161.06</transamount>
+<commission>32.21</commission>
+<lastip>66.87.76.163</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100576249 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89745875</transid>
+<transdate>04/21/2017 10:59:03 AM</transdate>
+<voidtransid>2955907</voidtransid>
+<voiddate>2017-05-18 22:18:06.46</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>98.56</transamount>
+<commission>19.71</commission>
+<lastip>199.231.54.68</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100574347 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89698713</transid>
+<transdate>04/20/2017 08:08:23 AM</transdate>
+<voidtransid>2955906</voidtransid>
+<voiddate>2017-05-18 22:17:32.667</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1256133</userid>
+<organization>Sopin Kodkaew</organization>
+<website>www.bestseatusa.com</website>
+<transamount>99.42</transamount>
+<commission>14.91</commission>
+<lastip>107.77.192.43</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.bestseatusa.com/immediately-jewelry-ring-trends-comparison</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100573081 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89658179</transid>
+<transdate>04/19/2017 10:59:47 AM</transdate>
+<voidtransid>2955905</voidtransid>
+<voiddate>2017-05-18 22:16:55.307</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>32.3</transamount>
+<commission>6.46</commission>
+<lastip>173.168.198.165</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100572181 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89490208</transid>
+<transdate>04/14/2017 10:06:35 AM</transdate>
+<voidtransid>2955904</voidtransid>
+<voiddate>2017-05-18 22:16:24.123</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>135.96</transamount>
+<commission>27.19</commission>
+<lastip>173.227.25.192</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/2.html</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100567328 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89446425</transid>
+<transdate>04/12/2017 11:41:51 PM</transdate>
+<voidtransid>2955903</voidtransid>
+<voiddate>2017-05-18 22:15:39.85</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>83.46</transamount>
+<commission>16.69</commission>
+<lastip>172.58.56.80</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100565930 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89444874</transid>
+<transdate>04/12/2017 10:47:32 PM</transdate>
+<voidtransid>2955902</voidtransid>
+<voiddate>2017-05-18 22:15:12.153</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>83.27</transamount>
+<commission>12.49</commission>
+<lastip>98.167.19.31</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100565826 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89375522</transid>
+<transdate>04/11/2017 06:55:03 AM</transdate>
+<voidtransid>2955901</voidtransid>
+<voiddate>2017-05-18 22:14:43.723</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>118.96</transamount>
+<commission>23.79</commission>
+<lastip>65.131.62.107</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100564220 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89362731</transid>
+<transdate>04/10/2017 07:55:40 PM</transdate>
+<voidtransid>2955900</voidtransid>
+<voiddate>2017-05-18 22:14:16.617</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>68.99</transamount>
+<commission>13.8</commission>
+<lastip>73.164.113.204</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100563865 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89321693</transid>
+<transdate>04/09/2017 05:35:23 PM</transdate>
+<voidtransid>2955899</voidtransid>
+<voiddate>2017-05-18 22:13:52.05</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>587784</userid>
+<organization>Chokchai manrian</organization>
+<website>www.iseebaseball.com</website>
+<transamount>118.96</transamount>
+<commission>17.84</commission>
+<lastip>104.183.190.22</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.iseebaseball.com/tips-westchester-jewelry-yonkers-order</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100562850 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89303079</transid>
+<transdate>04/09/2017 12:48:15 AM</transdate>
+<voidtransid>2951358</voidtransid>
+<voiddate>2017-05-18 04:55:38.723</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>45.19</transamount>
+<commission>6.78</commission>
+<lastip>68.205.250.103</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100562318 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89300391</transid>
+<transdate>04/08/2017 10:33:08 PM</transdate>
+<voidtransid>2951357</voidtransid>
+<voiddate>2017-05-18 04:54:50.82</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>135.96</transamount>
+<commission>27.19</commission>
+<lastip>174.137.69.167</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100562212 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89299292</transid>
+<transdate>04/08/2017 09:49:52 PM</transdate>
+<voidtransid>2951355</voidtransid>
+<voiddate>2017-05-18 04:54:10.447</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>80.89</transamount>
+<commission>12.13</commission>
+<lastip>24.125.20.130</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100562169 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89249023</transid>
+<transdate>04/07/2017 01:03:44 PM</transdate>
+<voidtransid>2951354</voidtransid>
+<voiddate>2017-05-18 04:53:39.483</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>156.34</transamount>
+<commission>31.27</commission>
+<lastip>209.194.200.254</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100560681 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89190500</transid>
+<transdate>04/06/2017 12:21:03 AM</transdate>
+<voidtransid>2951353</voidtransid>
+<voiddate>2017-05-18 04:53:13.437</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>71.37</transamount>
+<commission>14.27</commission>
+<lastip>73.176.213.119</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100559232 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89148808</transid>
+<transdate>04/05/2017 01:24:10 AM</transdate>
+<voidtransid>2951352</voidtransid>
+<voiddate>2017-05-18 04:50:53.863</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>546669</userid>
+<organization>CouponToPay.com LLC</organization>
+<website>www.coupontopay.com/</website>
+<transamount>77.32</transamount>
+<commission>11.6</commission>
+<lastip>47.145.244.174</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.coupontopay.com/jeulia-coupon-codes/all-coupons?p=507760</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100558233 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89137742</transid>
+<transdate>04/04/2017 07:59:02 PM</transdate>
+<voidtransid>2951351</voidtransid>
+<voiddate>2017-05-18 04:50:25.44</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>176.06</transamount>
+<commission>26.41</commission>
+<lastip>24.5.237.53</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100557902 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89119566</transid>
+<transdate>04/04/2017 12:39:16 PM</transdate>
+<voidtransid>2951350</voidtransid>
+<voiddate>2017-05-18 04:49:47.66</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>173.68</transamount>
+<commission>26.05</commission>
+<lastip>158.111.236.26</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100557564 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89109152</transid>
+<transdate>04/04/2017 06:49:24 AM</transdate>
+<voidtransid>2951349</voidtransid>
+<voiddate>2017-05-18 04:48:30.733</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>114.06</transamount>
+<commission>22.81</commission>
+<lastip>24.170.225.232</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100557339 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89100882</transid>
+<transdate>04/03/2017 10:46:16 PM</transdate>
+<voidtransid>2951348</voidtransid>
+<voiddate>2017-05-18 04:47:54.2</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1311222</userid>
+<organization>Juntr Saneyos</organization>
+<website>www.newmostwanted.com</website>
+<transamount>84.96</transamount>
+<commission>12.74</commission>
+<lastip>75.65.228.244</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.newmostwanted.com/immediately-jewelry-you-can-sell-from-home-cheapest</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100557139 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89095315</transid>
+<transdate>04/03/2017 08:30:11 PM</transdate>
+<voidtransid>2951347</voidtransid>
+<voiddate>2017-05-18 04:47:10.44</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>135.96</transamount>
+<commission>27.19</commission>
+<lastip>75.131.24.254</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/2.html</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100556988 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89085521</transid>
+<transdate>04/03/2017 04:23:30 PM</transdate>
+<voidtransid>2951346</voidtransid>
+<voiddate>2017-05-18 04:46:29.723</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>271.92</transamount>
+<commission>54.38</commission>
+<lastip>99.53.93.102</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100556775 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>88993907</transid>
+<transdate>04/01/2017 12:44:52 AM</transdate>
+<voidtransid>2951345</voidtransid>
+<voiddate>2017-05-18 04:45:49.727</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>546669</userid>
+<organization>CouponToPay.com LLC</organization>
+<website>www.coupontopay.com/</website>
+<transamount>89.22</transamount>
+<commission>13.38</commission>
+<lastip>174.209.24.154</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://www.coupontopay.com/jeulia-coupon-codes/all-coupons?gclid=CPezuq24gtMCFQyOaQodS78OFw</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100554063 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>89300240</transid>
+<transdate>04/08/2017 10:27:17 PM</transdate>
+<voidtransid>2951344</voidtransid>
+<voiddate>2017-05-18 04:45:01.39</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>221207</userid>
+<organization>TriMax Media</organization>
+<website>www.trimaxmedia.com</website>
+<transamount>124.06</transamount>
+<commission>24.81</commission>
+<lastip>24.152.227.140</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://1omt.net/www.jeulia.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100553064 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>86461014</transid>
+<transdate>01/26/2017 05:54:35 PM</transdate>
+<voidtransid>2841341</voidtransid>
+<voiddate>2017-02-18 11:23:41.06</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1416053</userid>
+<organization>Jacque Herbst</organization>
+<website>SoapBox.comeze.com </website>
+<transamount>88.41</transamount>
+<commission>13.26</commission>
+<lastip>41.82.3.11</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>938535</ubannernumb>
+<ubannerpage>http://m.facebook.com/</ubannerpage>
+<comment>VOIDED Non-Fulfilled Requirements Sale - 100467669 </comment>
+<voidreason>Non-Fulfilled Requirements</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>86065883</transid>
+<transdate>01/16/2017 04:44:16 PM</transdate>
+<voidtransid>2841339</voidtransid>
+<voiddate>2017-02-18 11:23:41.037</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1416053</userid>
+<organization>Jacque Herbst</organization>
+<website>SoapBox.comeze.com </website>
+<transamount>0</transamount>
+<commission>5</commission>
+<lastip></lastip>
+<lastport></lastport>
+<lastreferer></lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Non-Fulfilled Requirements Bonus - 100453849 </comment>
+<voidreason>Non-Fulfilled Requirements</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>86065882</transid>
+<transdate>01/16/2017 04:44:16 PM</transdate>
+<voidtransid>2841338</voidtransid>
+<voiddate>2017-02-18 11:23:41.027</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1416053</userid>
+<organization>Jacque Herbst</organization>
+<website>SoapBox.comeze.com </website>
+<transamount>148.71</transamount>
+<commission>22.31</commission>
+<lastip>41.82.165.51</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>938535</ubannernumb>
+<ubannerpage>http://m.facebook.com/</ubannerpage>
+<comment>VOIDED Non-Fulfilled Requirements Sale - 100453849 </comment>
+<voidreason>Non-Fulfilled Requirements</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>85044511</transid>
+<transdate>12/20/2016 12:28:47 PM</transdate>
+<voidtransid>2726154</voidtransid>
+<voiddate>2016-12-20 13:38:25.07</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>127.46</transamount>
+<commission>19.12</commission>
+<lastip>73.238.84.162</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100405554 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>85037283</transid>
+<transdate>12/20/2016 09:44:09 AM</transdate>
+<voidtransid>2726152</voidtransid>
+<voiddate>2016-12-20 13:38:25.047</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>158.09</transamount>
+<commission>23.71</commission>
+<lastip>76.71.52.3</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100390730 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>85016628</transid>
+<transdate>12/19/2016 09:26:28 PM</transdate>
+<voidtransid>2726151</voidtransid>
+<voiddate>2016-12-20 13:38:25.033</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>105.96</transamount>
+<commission>15.89</commission>
+<lastip>70.208.197.248</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100404463 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84969698</transid>
+<transdate>12/18/2016 09:59:38 PM</transdate>
+<voidtransid>2726146</voidtransid>
+<voiddate>2016-12-20 13:38:24.97</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>83.27</transamount>
+<commission>12.49</commission>
+<lastip>75.156.84.66</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100402338 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84927596</transid>
+<transdate>12/17/2016 10:04:57 PM</transdate>
+<voidtransid>2726144</voidtransid>
+<voiddate>2016-12-20 13:38:24.943</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>152.96</transamount>
+<commission>22.94</commission>
+<lastip>68.81.109.135</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100400007 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84913667</transid>
+<transdate>12/17/2016 03:56:06 PM</transdate>
+<voidtransid>2726143</voidtransid>
+<voiddate>2016-12-20 13:38:24.93</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>102.46</transamount>
+<commission>15.37</commission>
+<lastip>172.56.14.50</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100399299 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84892705</transid>
+<transdate>12/17/2016 04:36:45 AM</transdate>
+<voidtransid>2726142</voidtransid>
+<voiddate>2016-12-20 13:38:24.917</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>63.45</transamount>
+<commission>9.52</commission>
+<lastip>41.13.24.86</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>http://www.jeulia.co.za/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://m.facebook.com</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - ZA100005360 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84887228</transid>
+<transdate>12/16/2016 11:44:02 PM</transdate>
+<voidtransid>2726141</voidtransid>
+<voiddate>2016-12-20 13:38:24.903</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>107.06</transamount>
+<commission>16.06</commission>
+<lastip>174.96.87.29</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100397897 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84876509</transid>
+<transdate>12/16/2016 07:26:33 PM</transdate>
+<voidtransid>2726140</voidtransid>
+<voiddate>2016-12-20 13:38:23.64</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>101.96</transamount>
+<commission>15.29</commission>
+<lastip>71.140.99.118</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>https://www.facebook.com/</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100397396 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84860579</transid>
+<transdate>12/16/2016 02:18:47 PM</transdate>
+<voidtransid>2726139</voidtransid>
+<voiddate>2016-12-20 13:38:23.63</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>67.96</transamount>
+<commission>10.19</commission>
+<lastip>174.201.2.61</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATPd2TYDeRYgTXO7vzBoc4uoOEpjx3ErNqmxu1yb3GjgI5xbJubljGB-sEQnYzu94BjPN5tDwHXohjYwPfX4VNvsxZSGWQ28Iy2eQlXCIg0EXvwwR535yhJ8CjFoQYQyAyb7vhPFko8gkvP</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100383553 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84853386</transid>
+<transdate>12/16/2016 12:26:54 PM</transdate>
+<voidtransid>2726138</voidtransid>
+<voiddate>2016-12-20 13:38:23.617</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>86.84</transamount>
+<commission>13.03</commission>
+<lastip>71.188.102.33</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100396414 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84804200</transid>
+<transdate>12/15/2016 03:12:39 PM</transdate>
+<voidtransid>2726136</voidtransid>
+<voiddate>2016-12-20 13:38:23.59</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>76.46</transamount>
+<commission>11.47</commission>
+<lastip>69.23.249.202</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100394351 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84798824</transid>
+<transdate>12/15/2016 01:38:38 PM</transdate>
+<voidtransid>2726135</voidtransid>
+<voiddate>2016-12-20 13:38:23.577</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>67.96</transamount>
+<commission>10.19</commission>
+<lastip>99.44.240.22</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100394168 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84781457</transid>
+<transdate>12/15/2016 07:42:14 AM</transdate>
+<voidtransid>2726134</voidtransid>
+<voiddate>2016-12-20 13:38:23.567</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>135.96</transamount>
+<commission>20.39</commission>
+<lastip>172.56.29.160</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATMARA5KhZTnLzSW11wopEvs5cb6ps2medCQ3SGFidM0zXpszc7_W3YR6wVmN2LGCcYrb1eSOqYjTUUdvrnS7Mh6g1NTuGTuOk4fFhYMmdB9EaMc0ZHY0187BgiB-zoovhELKUISfJgGkkI</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100393516 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84727408</transid>
+<transdate>12/14/2016 09:39:10 AM</transdate>
+<voidtransid>2726131</voidtransid>
+<voiddate>2016-12-20 13:38:23.523</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>101.12</transamount>
+<commission>15.17</commission>
+<lastip>69.23.249.202</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100391354 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84717692</transid>
+<transdate>12/14/2016 12:37:12 AM</transdate>
+<voidtransid>2726130</voidtransid>
+<voiddate>2016-12-20 13:38:23.51</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>110.05</transamount>
+<commission>16.51</commission>
+<lastip>66.87.152.175</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://m.facebook.com/</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100390809 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84488556</transid>
+<transdate>12/10/2016 12:29:10 PM</transdate>
+<voidtransid>2726122</voidtransid>
+<voiddate>2016-12-20 13:38:23.407</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>135.96</transamount>
+<commission>20.39</commission>
+<lastip>99.59.200.219</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATPf4tqwuvs1PiJS_KP3nesN5hT6Hb093YCpxe7euaBgN5SGLmMmjaZynpLWuAU-gVUm9ZsQ1wwy7FpgPjN-ybL_xisBVARgGTx6c5a1QXq2V_umi6s3Vg</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100382526 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84488555</transid>
+<transdate>12/10/2016 12:29:10 PM</transdate>
+<voidtransid>2726121</voidtransid>
+<voiddate>2016-12-20 13:38:23.393</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency></paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>0</transamount>
+<commission>20</commission>
+<lastip></lastip>
+<lastport></lastport>
+<lastreferer></lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Bonus - $20 Bonus </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84460271</transid>
+<transdate>12/09/2016 09:13:10 PM</transdate>
+<voidtransid>2726118</voidtransid>
+<voiddate>2016-12-20 13:38:23.353</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>71.37</transamount>
+<commission>10.71</commission>
+<lastip>174.204.1.187</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://m.facebook.com</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100381252 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84392159</transid>
+<transdate>12/08/2016 07:42:18 PM</transdate>
+<voidtransid>2726116</voidtransid>
+<voiddate>2016-12-20 13:38:23.317</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>71.37</transamount>
+<commission>10.71</commission>
+<lastip>96.33.137.222</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>http://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100378635 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84318001</transid>
+<transdate>12/07/2016 03:43:22 PM</transdate>
+<voidtransid>2726113</voidtransid>
+<voiddate>2016-12-20 13:38:22.183</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>110.46</transamount>
+<commission>16.57</commission>
+<lastip>174.204.4.113</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100376074 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84286640</transid>
+<transdate>12/07/2016 01:35:44 AM</transdate>
+<voidtransid>2726110</voidtransid>
+<voiddate>2016-12-20 13:38:22.127</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>124.06</transamount>
+<commission>18.61</commission>
+<lastip>24.166.241.204</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATOSeu-JbQH6qh4lmv-NtwMRdB7OCqHMs5SZfXGSpZipEJ5qTu_9qpe7YPAYxa55zLHLdzIH32YizmEizqigj07ixTTy6zuZ-DHED9P4q_ZEkqGgk3HbBjOA</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100374943 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84171006</transid>
+<transdate>12/05/2016 10:25:30 AM</transdate>
+<voidtransid>2726106</voidtransid>
+<voiddate>2016-12-20 13:38:22.057</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>109.59</transamount>
+<commission>16.44</commission>
+<lastip>165.255.137.78</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>http://www.jeulia.co.za/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - ZA100005135 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84131532</transid>
+<transdate>12/04/2016 04:42:24 PM</transdate>
+<voidtransid>2726103</voidtransid>
+<voiddate>2016-12-20 13:38:22.003</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>118.96</transamount>
+<commission>17.84</commission>
+<lastip>104.240.32.155</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100369497 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84098729</transid>
+<transdate>12/03/2016 11:11:48 PM</transdate>
+<voidtransid>2726101</voidtransid>
+<voiddate>2016-12-20 13:38:21.97</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>135.96</transamount>
+<commission>20.39</commission>
+<lastip>70.181.12.247</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATMcoS5wSFz8b_WnDMziZ9eAleVUdRkhnn3xEaT_HUxghwEFXqhbE-JVETcuLSfHSH-f7l2-pjChTvsrkYx-ErDRz1gMqQ2881lK_kDxcQrxH3LOVOoAt342</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100367862 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84091628</transid>
+<transdate>12/03/2016 08:55:38 PM</transdate>
+<voidtransid>2726099</voidtransid>
+<voiddate>2016-12-20 13:38:21.863</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>47.57</transamount>
+<commission>7.14</commission>
+<lastip>50.102.7.254</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATNvZr62Rl9VdZq3KgUpz7SLNMw0IsIOzMmoVOBkZJMO9AiYHey_DzxZU9WdfG0nzTKYQiuBFyI9UrbQV_f3uNHnn3e6cSlvxvDIuv7_</ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100367480 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83954185</transid>
+<transdate>12/01/2016 01:22:14 PM</transdate>
+<voidtransid>2726093</voidtransid>
+<voiddate>2016-12-20 13:38:21.607</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>67.96</transamount>
+<commission>10.19</commission>
+<lastip>66.87.137.140</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100361809 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83949377</transid>
+<transdate>12/01/2016 12:06:15 PM</transdate>
+<voidtransid>2726092</voidtransid>
+<voiddate>2016-12-20 13:38:21.59</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>110.05</transamount>
+<commission>16.51</commission>
+<lastip>47.203.96.189</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Suspected Affiliate Fraud Sale - 100361558 </comment>
+<voidreason>Suspected Affiliate Fraud</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83795776</transid>
+<transdate>11/29/2016 01:04:18 AM</transdate>
+<voidtransid>2726087</voidtransid>
+<voiddate>2016-12-20 13:37:35.33</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>95.17</transamount>
+<commission>14.28</commission>
+<lastip>72.69.26.149</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATPqB8u-WFRCX0zZBLdlb2s1geiHDqTQHyRf7ICKMK-UvZyng2YpvuBIODJ_OkfyKOH5bObNZlCyqFf6V20Q6iKI872_yRBxOnnTy7uS</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100356602 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83717857</transid>
+<transdate>11/28/2016 03:52:58 PM</transdate>
+<voidtransid>2726083</voidtransid>
+<voiddate>2016-12-20 13:37:35.23</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>144.07</transamount>
+<commission>21.61</commission>
+<lastip>105.186.243.120</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.co.za/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>https://www.facebook.com/</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - ZA100005026 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83576587</transid>
+<transdate>11/26/2016 10:40:54 PM</transdate>
+<voidtransid>2726081</voidtransid>
+<voiddate>2016-12-20 13:37:35.18</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>65.42</transamount>
+<commission>9.81</commission>
+<lastip>65.103.164.12</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage>http://l.facebook.com/?u=http%3A%2F%2Fbit.ly%2F2fkf9eu&amp;e=ATNsewYHONHKfiZhgFKKNIb86HB81e-BpGZnrIDqO2ZdvA3WIeQnDzfs_NEWt9orI2AJ_6V60xNU5JUBma0aV5O-Tc9RwcxZmSG8og</ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100351142 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83400375</transid>
+<transdate>11/24/2016 09:34:50 PM</transdate>
+<voidtransid>2726071</voidtransid>
+<voiddate>2016-12-20 13:37:34.763</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>0</transamount>
+<commission>5</commission>
+<lastip></lastip>
+<lastport></lastport>
+<lastreferer></lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Bonus - 100344863 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>83400374</transid>
+<transdate>11/24/2016 09:34:50 PM</transdate>
+<voidtransid>2726070</voidtransid>
+<voiddate>2016-12-20 13:37:34.74</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>1402561</userid>
+<organization>Mohammad Ishtiaque Hossain</organization>
+<website>jseverydayfashion.com</website>
+<transamount>101.12</transamount>
+<commission>15.17</commission>
+<lastip>75.121.22.53</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>https://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb>718923</ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Cancelled Order Sale - 100344863 </comment>
+<voidreason>Cancelled Order</voidreason>
+</transactionvoidreportrecord>
+<transactionvoidreportrecord>
+<transid>84076845</transid>
+<transdate>12/03/2016 03:44:04 PM</transdate>
+<voidtransid>2695219</voidtransid>
+<voiddate>2016-12-04 20:51:33.77</voiddate>
+<voided>1</voided>
+<pending></pending>
+<locked>1</locked>
+<paidcurrency>USD</paidcurrency>
+<userid>948935</userid>
+<organization>ReviTrage</organization>
+<website>www.ReviTrage.com</website>
+<transamount>47.57</transamount>
+<commission>7.14</commission>
+<lastip>75.145.160.94</lastip>
+<lastport>GET 443</lastport>
+<lastreferer>http://www.jeulia.com/checkout/onepage/success/</lastreferer>
+<ubannernumb></ubannernumb>
+<ubannerpage></ubannerpage>
+<comment>VOIDED Test Transaction Sale - 100366977 </comment>
+<voidreason>Test Transaction</voidreason>
+</transactionvoidreportrecord>
+</transactionvoidreport>
