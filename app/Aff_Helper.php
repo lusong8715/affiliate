@@ -1,10 +1,9 @@
 <?php
-use Log;
 use App\Models\SasConfig;
 
 class Aff_Helper
 {
-    public function callSasApi($action, $data=array()) {
+    public static function callSasApi($action, $data=array()) {
         $config = SasConfig::Find(1);
         if ($config->merchant_id) {
             $param = '';
@@ -40,7 +39,7 @@ class Aff_Helper
                 Log::debug("Sas Api $action Error: " . $output);
                 return false;
             }
-            return simplexml_load_string($output);
+            return $output;
         } else {
             return false;
         }

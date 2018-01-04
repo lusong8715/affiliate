@@ -61,7 +61,6 @@ class SasActivitySummaryController extends Controller
             });
             $grid->model()->orderBy('sales', 'desc');
 
-            $grid->id()->sortable();
             $grid->userid()->sortable();
             $grid->sales()->sortable();
             $grid->gross_sales()->sortable();
@@ -93,6 +92,8 @@ class SasActivitySummaryController extends Controller
             });
             $grid->tools(function ($tools) {
                 $tools->disableRefreshButton();
+                $elem = '<div class="loading"><div class="loader"></div></div>Start: <input id="date_start" placeholder="yyyy/mm/dd">End: <input id="date_end" placeholder="yyyy/mm/dd"><a id="update_data" class="btn btn-sm btn-primary"><i class="fa fa-refresh"></i> 更新</a>';
+                $tools->append($elem);
             });
 
             $grid->perPages([50, 100, 200]);

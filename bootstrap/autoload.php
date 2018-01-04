@@ -33,7 +33,7 @@ if (file_exists($compiledPath)) {
     require $compiledPath;
 }
 
-$helperPath = __DIR__ . '/../app/Helper.php';
+$helperPath = __DIR__ . '/../app/Aff_Helper.php';
 if (file_exists($helperPath)) {
     require $helperPath;
 }

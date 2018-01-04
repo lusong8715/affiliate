@@ -3,7 +3,7 @@
 namespace App\Admin\Controllers;
 
 
-use App\Models\StateRevenue;
+use App\Models\BannerReport;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Facades\Admin;
@@ -11,7 +11,7 @@ use Encore\Admin\Layout\Content;
 use App\Http\Controllers\Controller;
 use Encore\Admin\Controllers\ModelForm;
 
-class SasStateRevenueController extends Controller
+class SasBannerReportController extends Controller
 {
     use ModelForm;
 
@@ -24,7 +24,7 @@ class SasStateRevenueController extends Controller
     {
         return Admin::content(function (Content $content) {
 
-            $content->header('ShareASale State Revenue');
+            $content->header('ShareASale Banner Report');
             $content->description('list');
 
             $content->body($this->grid());
@@ -41,7 +41,7 @@ class SasStateRevenueController extends Controller
     {
         return Admin::content(function (Content $content) use ($id) {
 
-            $content->header('ShareASale State Revenue');
+            $content->header('ShareASale Banner Report');
             $content->description('detail');
 
             $content->body($this->form()->edit($id));
@@ -55,24 +55,34 @@ class SasStateRevenueController extends Controller
      */
     protected function grid()
     {
-        return Admin::grid(StateRevenue::class, function (Grid $grid) {
+        return Admin::grid(BannerReport::class, function (Grid $grid) {
             $grid->rows(function ($rows) {
                 $rows->setAttributes(array('class' => 'open_view'));
             });
-            $grid->model()->orderBy('sales', 'desc');
+            $grid->model()->orderBy('unique_hits', 'desc');
 
-            $grid->state()->sortable();
-            $grid->sales()->sortable();
+            $grid->banner_id()->sortable();
+            $grid->banner_type();
+            $grid->product_name()->sortable();
+            $grid->unique_hits()->sortable();
             $grid->commissions()->sortable();
-            $grid->transactionfees()->sortable();
+            $grid->net_sales()->sortable();
+            $grid->number_of_voids()->sortable();
+            $grid->number_of_sales()->sortable();
+            $grid->banner_url();
 
             $grid->filter(function ($filter) {
                 $filter->useModal();
                 $filter->disableIdFilter();
-                $filter->is('state');
-                $filter->between('sales');
+                $filter->is('banner_id');
+                $filter->is('banner_type');
+                $filter->like('product_name');
+                $filter->between('unique_hits');
                 $filter->between('commissions');
-                $filter->between('transactionfees');
+                $filter->between('net_sales');
+                $filter->between('number_of_voids');
+                $filter->between('number_of_sales');
+                $filter->like('banner_url');
             });
 
             $grid->disableCreation();
@@ -98,12 +108,17 @@ class SasStateRevenueController extends Controller
      */
     protected function form()
     {
-        return Admin::form(StateRevenue::class, function (Form $form) {
+        return Admin::form(BannerReport::class, function (Form $form) {
 
-            $form->display('state');
-            $form->display('sales');
+            $form->display('banner_id');
+            $form->display('banner_type');
+            $form->display('product_name');
+            $form->display('unique_hits');
             $form->display('commissions');
-            $form->display('transactionfees');
+            $form->display('net_sales');
+            $form->display('number_of_voids');
+            $form->display('number_of_sales');
+            $form->display('banner_url');
 
             $form->tools(function (Form\Tools $tools) {
                 $tools->disableListButton();

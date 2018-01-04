@@ -27,8 +27,6 @@ class SasTransactionDetailController extends Controller
             $content->header('ShareASale Transaction Detail');
             $content->description('list');
 
-            $div = '<div id="table_name" style="display: none">shareasale_transactiondetail</div>';
-            $content->row($div);
             $content->body($this->grid());
         });
     }
@@ -63,7 +61,6 @@ class SasTransactionDetailController extends Controller
             });
             $grid->model()->orderBy('trans_id', 'desc');
 
-            $grid->id()->sortable();
             $grid->trans_id()->sortable();
             $grid->user_id()->sortable();
             $grid->trans_date()->sortable();
@@ -89,6 +86,8 @@ class SasTransactionDetailController extends Controller
 
             $grid->tools(function ($tools) {
                 $tools->disableRefreshButton();
+                $elem = '<div class="loading"><div class="loader"></div></div><a id="update_data" class="btn btn-sm btn-primary"><i class="fa fa-refresh"></i> 更新</a>';
+                $tools->append($elem);
             });
 
             $grid->filter(function ($filter) {

@@ -61,7 +61,6 @@ class SasTodayAtAGlanceController extends Controller
             });
             $grid->model()->orderBy('number_of_sales', 'desc');
 
-            $grid->id()->sortable();
             $grid->affiliate()->sortable();
             $grid->clicks()->sortable();
             $grid->gross_sales()->sortable();
@@ -108,6 +107,8 @@ class SasTodayAtAGlanceController extends Controller
             });
             $grid->tools(function ($tools) {
                 $tools->disableRefreshButton();
+                $elem = '<div class="loading"><div class="loader"></div></div><a id="update_data" class="btn btn-sm btn-primary"><i class="fa fa-refresh"></i> 更新</a>';
+                $tools->append($elem);
             });
 
             $grid->perPages([50, 100, 200]);

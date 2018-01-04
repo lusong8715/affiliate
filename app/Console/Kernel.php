@@ -20,6 +20,13 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\activitySummary',
         'App\Console\Commands\todayAtAGlance',
         'App\Console\Commands\stateRevenue',
+        'App\Console\Commands\reportAffiliate',
+        'App\Console\Commands\transactionEditReport',
+        'App\Console\Commands\transactionVoidReport',
+        'App\Console\Commands\ledger',
+        'App\Console\Commands\bannerReport',
+        'App\Console\Commands\bannerList',
+        'App\Console\Commands\dealList',
     ];
 
     /**
@@ -31,5 +38,19 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('update:order')->dailyAt('09:00')->runInBackground();
+        $schedule->command('shareasale:transactiondetail')->dailyAt('08:00')->runInBackground();
+        $schedule->command('shareasale:weeklyprogress')->cron('0 7 * * 1')->runInBackground();
+        $schedule->command('shareasale:weeklyprogress')->cron('0 7 * * 5')->runInBackground();
+        $schedule->command('shareasale:affiliatetimespan')->cron('0 2 * * 1')->runInBackground();
+        $schedule->command('shareasale:activitysummary')->cron('0 2 * * 1')->runInBackground();
+        $schedule->command('shareasale:todayataglance')->dailyAt('06:00')->runInBackground();
+        $schedule->command('shareasale:staterevenue')->cron('0 2 * * 1')->runInBackground();
+        $schedule->command('shareasale:reportaffiliate')->cron('0 12 * 1 *')->runInBackground();
+        $schedule->command('shareasale:transactioneditreport')->cron('0 3 * * 1')->runInBackground();
+        $schedule->command('shareasale:transactionvoidreport')->cron('0 3 * * 1')->runInBackground();
+        $schedule->command('shareasale:ledger')->cron('0 4 * * 1')->runInBackground();
+        $schedule->command('shareasale:bannerreport')->cron('0 5 * * 1')->runInBackground();
+        $schedule->command('shareasale:bannerlist')->cron('0 1 * * 1')->runInBackground();
+        $schedule->command('shareasale:deallist')->cron('0 1 * * 1')->runInBackground();
     }
 }
