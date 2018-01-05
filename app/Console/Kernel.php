@@ -24,6 +24,8 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\transactionVoidReport',
         'App\Console\Commands\ledger',
         'App\Console\Commands\bannerReport',
+        'App\Console\Commands\bannerList',
+        'App\Console\Commands\dealList',
     ];
 
     /**
@@ -46,5 +48,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('shareasale:transactionvoidreport')->cron('0 3 * * 1')->runInBackground();
         $schedule->command('shareasale:ledger')->cron('0 4 * * 1')->runInBackground();
         $schedule->command('shareasale:bannerreport')->cron('0 5 * * 1')->runInBackground();
+        $schedule->command('shareasale:bannerlist')->dailyAt('03:00')->runInBackground();
+        $schedule->command('shareasale:deallist')->dailyAt('03:00')->runInBackground();
     }
 }

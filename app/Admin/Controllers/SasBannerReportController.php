@@ -3,7 +3,9 @@
 namespace App\Admin\Controllers;
 
 
+use App\Models\BannerList;
 use App\Models\BannerReport;
+use App\Models\DealList;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Facades\Admin;
@@ -62,8 +64,21 @@ class SasBannerReportController extends Controller
             $grid->model()->orderBy('unique_hits', 'desc');
 
             $grid->banner_id()->sortable();
-            $grid->banner_type();
-            $grid->product_name()->sortable();
+            $grid->banner_type()->sortable();
+            $grid->product_name('Product name/Creative name')->display(function ($name) {
+                if ($this->banner_type == 'Banner/Text Link') {
+                    $banner = BannerList::where('banner_id', '=', $this->banner_id)->get();
+                    if (count($banner)) {
+                        return $banner[0]->banner_text;
+                    }
+                } else if ($this->banner_type == 'Coupon/Deal') {
+                    $banner = DealList::where('deal_id', '=', preg_replace('/[^\d]+/', '', $this->banner_id))->get();
+                    if (count($banner)) {
+                        return $banner[0]->title;
+                    }
+                }
+                return $name;
+            });
             $grid->unique_hits()->sortable();
             $grid->commissions()->sortable();
             $grid->net_sales()->sortable();
