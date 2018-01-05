@@ -38,9 +38,6 @@ class SyncController extends Controller
             case 'sasstaterevenue':
                 Artisan::call('shareasale:staterevenue', $param);
                 break;
-            case 'sasreportaffiliate':
-                Artisan::call('shareasale:reportaffiliate');
-                break;
             case 'sastransactioneditreport':
                 Artisan::call('shareasale:transactioneditreport', $param);
                 break;
@@ -52,12 +49,6 @@ class SyncController extends Controller
                 break;
             case 'sasbannerreport':
                 Artisan::call('shareasale:bannerreport', $param);
-                break;
-            case 'sasbannerlist':
-                Artisan::call('shareasale:bannerlist');
-                break;
-            case 'sasdeallist':
-                Artisan::call('shareasale:deallist');
                 break;
             default:
                 break;

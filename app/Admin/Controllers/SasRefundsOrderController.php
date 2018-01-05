@@ -77,6 +77,7 @@ class SasRefundsOrderController extends Controller
             });
             $grid->currency()->sortable();
             $grid->amount()->sortable();
+            $grid->refund_date()->sortable();
             $grid->processed()->sortable()->editable('select', [1 => 'Yes', 0 => 'No']);
 
             $grid->filter(function ($filter) {
@@ -88,6 +89,7 @@ class SasRefundsOrderController extends Controller
                 $filter->is('status')->select(['return_completed' => '退货(整单)', 'return_part_completed' => '退货(部分)']);
                 $filter->is('currency');
                 $filter->between('amount');
+                $filter->between('refund_date')->datetime();
                 $filter->is('processed')->select([1 => 'Yes', 0 => 'No']);
             });
 

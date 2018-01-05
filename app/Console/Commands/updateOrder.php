@@ -53,6 +53,7 @@ class updateOrder extends Command
             $order->status = $data[1];
             $order->currency = $data[2];
             $order->amount = $data[3];
+            $order->refund_date = $data[4];
             $order->save();
         }
     }

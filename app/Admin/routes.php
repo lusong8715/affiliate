@@ -19,11 +19,8 @@ Route::group([
     $router->resource('sasactivitysummary', 'SasActivitySummaryController');
     $router->resource('sastodayataglance', 'SasTodayAtAGlanceController');
     $router->resource('sasstaterevenue', 'SasStateRevenueController');
-    $router->resource('sasreportaffiliate', 'SasReportAffiliateController');
     $router->resource('sastransactioneditreport', 'SasTransactionEditReportController');
     $router->resource('sastransactionvoidreport', 'SasTransactionVoidReportController');
     $router->resource('sasledger', 'SasLedgerController');
     $router->resource('sasbannerreport', 'SasBannerReportController');
-    $router->resource('sasbannerlist', 'SasBannerListController');
-    $router->resource('sasdeallist', 'SasDealListController');
 });
