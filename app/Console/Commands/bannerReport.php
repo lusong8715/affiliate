@@ -54,6 +54,9 @@ class bannerReport extends Command
             return;
         }
 
+        $output = str_replace('<productname>', '<productname><![CDATA[', $output);
+        $output = str_replace('</productname>', ']]></productname>', $output);
+
         $datas = simplexml_load_string($output);
         if ($datas) {
             DB::table('shareasale_bannerreport')->truncate();
