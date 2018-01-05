@@ -13,50 +13,126 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
-        DB::table('config')->insert([
-            'username' => '',
-            'access_token' => '',
-            'note_temp' => '#Jeulia %title%. Discover more stunning %category% from Jeulia.com. Shop Now!',
-            'releases_num' => '20',
-            'releases_time' => '4,14,20,23',
+        DB::table('shareasale_config')->insert([
+            'api_url' => 'https://api.shareasale.com/w.cfm',
+            'api_token' => '',
+            'api_secret' => '',
+            'api_version' => '2.8',
         ]);
 
         DB::table('admin_menu')->insert(
             array(
                 array(
                     'parent_id' => 0,
-                    'order' => 7,
-                    'title' => 'Config',
+                    'order' => 12,
+                    'title' => 'ShareASale',
                     'icon' => 'fa-bars',
-                    'uri' => 'config'
+                    'uri' => ''
                 ),
                 array(
-                    'parent_id' => 0,
+                    'parent_id' => 12,
+                    'order' => 1,
+                    'title' => 'Config',
+                    'icon' => 'fa-book',
+                    'uri' => 'sasconfig'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 2,
+                    'title' => 'Refunds Order',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasrefundsorder'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 3,
+                    'title' => 'Transaction Detail',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sastransactiondetail'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 4,
+                    'title' => 'Weekly Progress',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasweeklyprogress'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 5,
+                    'title' => 'Affiliate Time Span',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasaffiliatetimespan'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 6,
+                    'title' => 'Activity Summary',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasactivitysummary'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 7,
+                    'title' => 'Today At A Glance',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sastodayataglance'
+                ),
+                array(
+                    'parent_id' => 12,
                     'order' => 8,
-                    'title' => 'Pins',
-                    'icon' => 'fa-barcode',
-                    'uri' => 'pins'
+                    'title' => 'State Revenue',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasstaterevenue'
                 ),
                 array(
-                    'parent_id' => 0,
+                    'parent_id' => 12,
                     'order' => 9,
-                    'title' => 'Scheduled Pins',
-                    'icon' => 'fa-folder-o',
-                    'uri' => 'custom'
+                    'title' => 'Report Affiliate',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasreportaffiliate'
                 ),
                 array(
-                    'parent_id' => 0,
+                    'parent_id' => 12,
                     'order' => 10,
-                    'title' => 'Published Pins',
-                    'icon' => 'fa-folder-open-o',
-                    'uri' => 'custom/published'
+                    'title' => 'Transaction Edit Report',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sastransactioneditreport'
                 ),
                 array(
-                    'parent_id' => 0,
+                    'parent_id' => 12,
                     'order' => 11,
-                    'title' => 'Boards',
-                    'icon' => 'fa-bold',
-                    'uri' => 'boards'
+                    'title' => 'Transaction Void Report',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sastransactionvoidreport'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 12,
+                    'title' => 'Ledger',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasledger'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 13,
+                    'title' => 'Banner Report',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasbannerreport'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 14,
+                    'title' => 'Banner List',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasbannerlist'
+                ),
+                array(
+                    'parent_id' => 12,
+                    'order' => 15,
+                    'title' => 'Deal List',
+                    'icon' => 'fa-bar-chart',
+                    'uri' => 'sasdeallist'
                 ),
             )
         );
