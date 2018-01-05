@@ -42,9 +42,9 @@ class weeklyProgress extends Command
             $param['datestart'] = date('m/d/Y', $start);
         }
         if ($this->option('lengthofreport')) {
-            $param['lengthofreport '] = $this->option('lengthofreport');
+            $param['lengthofreport'] = $this->option('lengthofreport');
         } else {
-            $param['lengthofreport '] = 7;
+            $param['lengthofreport'] = 7;
         }
 
         $output = \Aff_Helper::callSasApi($action, $param);
