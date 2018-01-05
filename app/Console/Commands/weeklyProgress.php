@@ -11,7 +11,7 @@ class weeklyProgress extends Command
      *
      * @var string
      */
-    protected $signature = 'shareasale:weeklyprogress {--start=}';
+    protected $signature = 'shareasale:weeklyprogress {--start=} {--lengthofreport=}';
 
     /**
      * The console command description.
