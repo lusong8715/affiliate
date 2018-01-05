@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class BannerList extends Model
 {
-    protected $table = 'shareasale_bannerList';
+    protected $table = 'shareasale_bannerlist';
     public $timestamps = false;
 }
