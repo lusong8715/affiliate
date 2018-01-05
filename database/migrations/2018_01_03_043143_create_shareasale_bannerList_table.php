@@ -12,7 +12,7 @@ class CreateShareasaleBannerListTable extends Migration
      */
     public function up()
     {
-        Schema::create('shareasale_bannerList', function (Blueprint $table) {
+        Schema::create('shareasale_bannerlist', function (Blueprint $table) {
             $table->increments('id');
             $table->string('banner_id');
             $table->string('display_type');
@@ -34,6 +34,6 @@ class CreateShareasaleBannerListTable extends Migration
      */
     public function down()
     {
-        Schema::drop('shareasale_bannerList');
+        Schema::drop('shareasale_bannerlist');
     }
 }
