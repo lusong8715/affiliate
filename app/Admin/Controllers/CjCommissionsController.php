@@ -61,21 +61,17 @@ class CjCommissionsController extends Controller
             });
             $grid->model()->orderBy('event_date', 'desc');
 
-            $grid->action_status();
-            $grid->action_type();
-            $grid->aid()->sortable();
-            $grid->commission_id()->sortable();
-            $grid->country();
-            $grid->event_date()->sortable();
             $grid->order_id()->sortable();
-            $grid->original_action_id()->sortable();
+            $grid->commission_id()->sortable();
             $grid->posting_date()->sortable();
-            $grid->website_id()->sortable();
-            $grid->cid()->sortable();
+            $grid->event_date()->sortable();
             $grid->publisher_name();
+            $grid->sale_amount()->sortable();
             $grid->commission_amount()->sortable();
             $grid->order_discount()->sortable();
-            $grid->sale_amount()->sortable();
+            $grid->locking_date()->sortable();
+            $grid->country();
+            $grid->action_status();
 
             $grid->disableCreation();
             $grid->disableRowSelector();
