@@ -60,6 +60,8 @@ class weeklyProgress extends Command
                 if (!count($wp)) {
                     $wp = new \App\Models\WeeklyProgress();
                     $wp->rep_date = $repDate;
+                } else {
+                    $wp = $wp[0];
                 }
                 $wp->clicks = $data->clicks;
                 $wp->gross_sales = preg_replace('/[^0-9.]+/', '', $data->grosssales);

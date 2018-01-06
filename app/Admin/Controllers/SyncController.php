@@ -50,6 +50,9 @@ class SyncController extends Controller
             case 'sasbannerreport':
                 Artisan::call('shareasale:bannerreport', $param);
                 break;
+            case 'cjcommissions':
+                Artisan::call('cj:commissions', $param);
+                break;
             default:
                 break;
         }

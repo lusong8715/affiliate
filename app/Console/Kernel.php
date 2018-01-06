@@ -26,6 +26,7 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\bannerReport',
         'App\Console\Commands\bannerList',
         'App\Console\Commands\dealList',
+        'App\Console\Commands\commissions',
     ];
 
     /**
@@ -50,5 +51,6 @@ class Kernel extends ConsoleKernel
         $schedule->command('shareasale:bannerreport')->cron('0 5 * * 1')->runInBackground();
         $schedule->command('shareasale:bannerlist')->dailyAt('03:00')->runInBackground();
         $schedule->command('shareasale:deallist')->dailyAt('03:00')->runInBackground();
+        $schedule->command('cj:commissions')->dailyAt('21:00')->runInBackground();
     }
 }

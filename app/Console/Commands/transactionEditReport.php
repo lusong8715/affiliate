@@ -60,6 +60,8 @@ class transactionEditReport extends Command
                 if (!count($ter)) {
                     $ter = new \App\Models\TransactionEditReport();
                     $ter->trans_id = $data->transid;
+                } else {
+                    $ter = $ter[0];
                 }
                 $ter->trans_date = date('Y-m-d', strtotime($data->transdate));
                 $ter->edit_trans_id = $data->edittransid;

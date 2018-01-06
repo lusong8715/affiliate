@@ -69,6 +69,8 @@ class transactionDetail extends Command
                 if (!count($td)) {
                     $td = new \App\Models\TransactionDetail();
                     $td->trans_id = $data->transid;
+                } else {
+                    $td = $td[0];
                 }
                 $td->user_id = $data->userid;
                 $td->trans_date = date('Y-m-d H:i:s', strtotime($data->transdate));

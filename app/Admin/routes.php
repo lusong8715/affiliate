@@ -23,4 +23,6 @@ Route::group([
     $router->resource('sastransactionvoidreport', 'SasTransactionVoidReportController');
     $router->resource('sasledger', 'SasLedgerController');
     $router->resource('sasbannerreport', 'SasBannerReportController');
+    $router->resource('cjconfig', 'CjConfigController');
+    $router->resource('cjcommissions', 'CjCommissionsController');
 });

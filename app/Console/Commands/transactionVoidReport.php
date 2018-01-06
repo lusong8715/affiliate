@@ -60,6 +60,8 @@ class transactionVoidReport extends Command
                 if (!count($tvr)) {
                     $tvr = new \App\Models\TransactionVoidReport();
                     $tvr->trans_id = $data->transid;
+                } else {
+                    $tvr = $tvr[0];
                 }
                 $tvr->trans_date = date('Y-m-d', strtotime($data->transdate));
                 $tvr->void_trans_id = $data->voidtransid;
