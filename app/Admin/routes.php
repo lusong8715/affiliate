@@ -25,4 +25,5 @@ Route::group([
     $router->resource('sasbannerreport', 'SasBannerReportController');
     $router->resource('cjconfig', 'CjConfigController');
     $router->resource('cjcommissions', 'CjCommissionsController');
+    $router->resource('cjrefundsorder', 'CjRefundsOrderController');
 });
