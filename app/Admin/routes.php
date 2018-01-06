@@ -26,4 +26,7 @@ Route::group([
     $router->resource('cjconfig', 'CjConfigController');
     $router->resource('cjcommissions', 'CjCommissionsController');
     $router->resource('cjrefundsorder', 'CjRefundsOrderController');
+    $router->resource('wgconfig', 'WgConfigController');
+    $router->resource('wgtransaction', 'WgTransactionController');
+    $router->resource('wgrefundsorder', 'WgRefundsOrderController');
 });

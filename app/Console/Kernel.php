@@ -27,6 +27,7 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\bannerList',
         'App\Console\Commands\dealList',
         'App\Console\Commands\commissions',
+        'App\Console\Commands\wgTransaction',
     ];
 
     /**
@@ -52,5 +53,6 @@ class Kernel extends ConsoleKernel
         $schedule->command('shareasale:bannerlist')->dailyAt('03:00')->runInBackground();
         $schedule->command('shareasale:deallist')->dailyAt('03:00')->runInBackground();
         $schedule->command('cj:commissions')->dailyAt('21:00')->runInBackground();
+        $schedule->command('wg:transaction')->dailyAt('21:00')->runInBackground();
     }
 }

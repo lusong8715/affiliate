@@ -53,6 +53,9 @@ class SyncController extends Controller
             case 'cjcommissions':
                 Artisan::call('cj:commissions', $param);
                 break;
+            case 'wgtransaction':
+                Artisan::call('wg:transaction', $param);
+                break;
             default:
                 break;
         }

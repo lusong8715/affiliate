@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\DB;
 
 class CreateCjConfigTable extends Migration
 {
@@ -17,6 +18,9 @@ class CreateCjConfigTable extends Migration
             $table->string('api_url', 64);
             $table->text('api_key')->nullable();
         });
+        DB::table('cj_config')->insert([
+            'api_url' => 'https://commission-detail.api.cj.com/v3/commissions',
+        ]);
     }
 
     /**

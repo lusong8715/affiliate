@@ -20,10 +20,6 @@ class DatabaseSeeder extends Seeder
             'api_version' => '2.8',
         ]);
 
-        DB::table('cj_config')->insert([
-            'api_url' => 'https://commission-detail.api.cj.com/v3/commissions',
-        ]);
-
         DB::table('admin_menu')->insert(
             array(
                 array(
