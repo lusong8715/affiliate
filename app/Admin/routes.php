@@ -29,4 +29,5 @@ Route::group([
     $router->resource('wgconfig', 'WgConfigController');
     $router->resource('wgtransaction', 'WgTransactionController');
     $router->resource('wgrefundsorder', 'WgRefundsOrderController');
+    $router->resource('repeatorders', 'RepeatOrdersController');
 });

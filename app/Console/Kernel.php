@@ -28,6 +28,7 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\dealList',
         'App\Console\Commands\commissions',
         'App\Console\Commands\wgTransaction',
+        'App\Console\Commands\repeatOrders',
     ];
 
     /**
@@ -54,5 +55,6 @@ class Kernel extends ConsoleKernel
         $schedule->command('shareasale:deallist')->dailyAt('17:00')->runInBackground();
         $schedule->command('cj:commissions')->dailyAt('21:00')->runInBackground();
         $schedule->command('wg:transaction')->dailyAt('21:00')->runInBackground();
+        $schedule->command('repeat:order')->dailyAt('16:00')->runInBackground();
     }
 }
