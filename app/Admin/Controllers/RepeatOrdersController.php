@@ -78,6 +78,12 @@ class RepeatOrdersController extends Controller
             $grid->wg_trans_amount()->sortable();
             $grid->status()->sortable()->editable('select', [1 => '已处理', 0 => '未处理']);
 
+            $grid->tools(function ($tools) {
+                $tools->disableRefreshButton();
+                $elem = '<div class="loading"><div class="loader"></div></div><a id="update_data" class="btn btn-sm btn-primary"><i class="fa fa-refresh"></i> 更新</a>';
+                $tools->append($elem);
+            });
+
             $grid->filter(function ($filter) {
                 $filter->useModal();
                 $filter->disableIdFilter();

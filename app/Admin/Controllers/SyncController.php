@@ -56,6 +56,9 @@ class SyncController extends Controller
             case 'wgtransaction':
                 Artisan::call('wg:transaction', $param);
                 break;
+            case 'repeatorders':
+                Artisan::call('repeat:order');
+                break;
             default:
                 break;
         }
