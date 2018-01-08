@@ -10,14 +10,9 @@ use Encore\Admin\Layout\Row;
 use Encore\Admin\Widgets\Box;
 use Encore\Admin\Widgets\Chart\Bar;
 use Encore\Admin\Widgets\Chart\Doughnut;
-use Encore\Admin\Widgets\Chart\Line;
-use Encore\Admin\Widgets\Chart\Pie;
-use Encore\Admin\Widgets\Chart\PolarArea;
-use Encore\Admin\Widgets\Chart\Radar;
 use Encore\Admin\Widgets\Collapse;
-use Encore\Admin\Widgets\InfoBox;
-use Encore\Admin\Widgets\Tab;
 use Encore\Admin\Widgets\Table;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -30,59 +25,90 @@ class HomeController extends Controller
             $content->row(function (Row $row) {
 
                 $row->column(6, function (Column $column) {
-
+                    $m = date('Y-m') . '-1';
+                    $result = DB::select("select sum(trans_amount) as amount from shareasale_transactiondetail where trans_date > ?", [$m]);
+                    $sasAmount = $result[0]->amount;
+                    $result = DB::select("select sum(sale_amount) as amount from cj_commissions where posting_date > ?", [$m]);
+                    $cjAmount = $result[0]->amount;
+                    $result = DB::select("select sum(value) as amount from webgains_transaction where date > ?", [$m]);
+                    $wgAmount = $result[0]->amount;
                     $doughnut = new Doughnut([
-                        ['Chrome', 700],
-                        ['IE', 500],
-                        ['FireFox', 400],
-                        ['Safari', 600],
-                        ['Opera', 300],
-                        ['Navigator', 100],
+                        ['ShareASale', $sasAmount],
+                        ['CJ', $cjAmount],
+                        ['Webgains', $wgAmount],
                     ]);
-                    $column->append((new Box('Doughnut', $doughnut))->removable()->collapsable()->style('info'));
-
-                    $collapse = new Collapse();
-
-                    $bar = new Bar(
-                        ["January", "February", "March", "April", "May", "June", "July"],
-                        [
-                            ['First', [40,56,67,23,10,45,78]],
-                            ['Second', [93,23,12,23,75,21,88]],
-                            ['Third', [33,82,34,56,87,12,56]],
-                            ['Forth', [34,25,67,12,48,91,16]],
-                        ]
-                    );
-                    $collapse->add('Bar', $bar);
-                    $column->append($collapse);
+                    $column->append((new Box('Amount of the month', $doughnut))->removable()->collapsable()->style('info'));
                 });
 
                 $row->column(6, function (Column $column) {
 
-                    $column->append(new Box('Radar', new Radar()));
-
-                    $polarArea = new PolarArea([
-                        ['Red', 300],
-                        ['Blue', 450],
-                        ['Green', 700],
-                        ['Yellow', 280],
-                        ['Black', 425],
-                        ['Gray', 1000],
-                    ]);
-                    $column->append((new Box('Polar Area', $polarArea))->removable()->collapsable());
+                    $collapse = new Collapse();
+                    $dates = array();
+                    $months = array();
+                    $y = date('Y');
+                    $m = date('m');
+                    $cnt = 6;
+                    while ($cnt > 0) {
+                        $m--;
+                        if ($m == 0) {
+                            $m = 12;
+                            $y--;
+                        }
+                        $months[] = $m;
+                        $dates[] = $y . '-' . $m;
+                        $cnt--;
+                    }
+                    $months = array_reverse($months);
+                    $dates = array_reverse($dates);
+                    $startDate = $dates[0] . '-1';
+                    $endDate = $y . $m . '-1';
+                    $result = DB::select("select month(trans_date) as mon, sum(trans_amount) as amount from shareasale_transactiondetail where trans_date >= ? and trans_date < ? group by mon", [$startDate, $endDate]);
+                    $sasDatas = $this->_getAmountForMonth($months, $result);
+                    $result = DB::select("select month(posting_date) as mon, sum(sale_amount) as amount from cj_commissions where posting_date >= ? and posting_date < ? group by mon", [$startDate, $endDate]);
+                    $cjDatas = $this->_getAmountForMonth($months, $result);
+                    $result = DB::select("select month(date) as mon, sum(value) as amount from webgains_transaction where date >= ? and date < ? group by mon", [$startDate, $endDate]);
+                    $wgDatas = $this->_getAmountForMonth($months, $result);
+                    $bar = new Bar(
+                        $months,
+                        [
+                            ['ShareASale', $sasDatas],
+                            ['CJ', $cjDatas],
+                            ['Webgains', $wgDatas],
+                        ]
+                    );
+                    $collapse->add('Amount past 6 months', $bar);
+                    $column->append($collapse);
                 });
 
             });
 
-            $headers = ['Id', 'Email', 'Name', 'Company', 'Last Login', 'Status'];
-            $rows = [
-                [1, 'labore21@yahoo.com', 'Ms. Clotilde Gibson', 'Goodwin-Watsica', '1997-08-13 13:59:21', 'open'],
-                [2, 'omnis.in@hotmail.com', 'Allie Kuhic', 'Murphy, Koepp and Morar', '1988-07-19 03:19:08', 'blocked'],
-                [3, 'quia65@hotmail.com', 'Prof. Drew Heller', 'Kihn LLC', '1978-06-19 11:12:57', 'blocked'],
-                [4, 'xet@yahoo.com', 'William Koss', 'Becker-Raynor', '1988-09-07 23:57:45', 'open'],
-                [5, 'ipsa.aut@gmail.com', 'Ms. Antonietta Kozey Jr.', 'Braun Ltd', '2013-10-16 10:00:01', 'open'],
-            ];
+            $headers = ['Order Id', 'Trans Id', 'Trans Date', 'Amount', 'Code', 'Type'];
+            $rows = $rows = DB::select("
+                select order_number as order_id, trans_id, trans_date, trans_amount as amount, coupon_code as code, 'ShareASale' as type from shareasale_transactiondetail
+                union
+                select order_id, commission_id as trans_id, posting_date as trans_date, sale_amount as amount, '' as code, 'CJ' as type from cj_commissions
+                union
+                select order_reference as order_id, id as trans_id, date as trans_date, value as amount, voucher_code as code, 'Webgains' as type from webgains_transaction
+                order by trans_date desc limit 30;
+            ");
 
-            $content->row((new Box('Table', new Table($headers, $rows)))->style('info')->solid());
+            $content->row((new Box('Newest 30 order', new Table($headers, $rows)))->style('info')->solid());
         });
+    }
+
+    private function _getAmountForMonth($months, $datas) {
+        $result = array();
+        $arr = array();
+        foreach ($datas as $data) {
+            $arr[$data->mon] = $data->amount;
+        }
+        foreach ($months as $month) {
+            if (isset($arr[$month])) {
+                $result[] = $arr[$month];
+            } else {
+                $result[] = 0;
+            }
+        }
+        return $result;
     }
 }

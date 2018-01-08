@@ -78,7 +78,7 @@ class SasRefundsOrderController extends Controller
             $grid->currency()->sortable();
             $grid->amount()->sortable();
             $grid->refund_date()->sortable();
-            $grid->processed()->sortable()->editable('select', [1 => 'Yes', 0 => 'No']);
+            $grid->processed()->sortable()->editable('select', [1 => '已处理', 0 => '未处理']);
 
             $grid->filter(function ($filter) {
                 $filter->useModal();
@@ -90,7 +90,7 @@ class SasRefundsOrderController extends Controller
                 $filter->is('currency');
                 $filter->between('amount');
                 $filter->between('refund_date')->datetime();
-                $filter->is('processed')->select([1 => 'Yes', 0 => 'No']);
+                $filter->is('processed')->select([1 => '已处理', 0 => '未处理']);
             });
 
             $grid->disableCreation();
