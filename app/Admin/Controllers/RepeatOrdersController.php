@@ -99,7 +99,6 @@ class RepeatOrdersController extends Controller
             });
 
             $grid->disableCreation();
-            $grid->disablePagination();
             $grid->disableRowSelector();
             $grid->disableActions();
 
