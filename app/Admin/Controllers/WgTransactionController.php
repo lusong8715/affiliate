@@ -63,7 +63,7 @@ class WgTransactionController extends Controller
 
             $grid->id()->sortable();
             $grid->campaign_id()->sortable();
-            $grid->event_id()->sortable();
+            $grid->date()->sortable();
             $grid->order_reference()->sortable();
             $grid->voucher_code();
             $grid->value()->sortable();
