@@ -102,6 +102,9 @@ class RepeatOrdersController extends Controller
             $grid->disablePagination();
             $grid->disableRowSelector();
             $grid->disableActions();
+
+            $grid->perPages([50, 100, 200]);
+            $grid->paginate(50);
         });
     }
 
