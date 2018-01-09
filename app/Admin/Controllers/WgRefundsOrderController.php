@@ -60,7 +60,7 @@ class WgRefundsOrderController extends Controller
             $grid->model()->select(DB::raw('ro.*, wt.id as trans_id, wt.date as trans_date'));
             $grid->model()->from('refunds_order as ro');
             $grid->model()->join('webgains_transaction as wt', 'ro.order_id', '=', 'wt.order_reference');
-            $grid->model()->orderBy('processed', 'asc');
+            $grid->model()->where('processed', '=', '0');
             $grid->model()->orderBy('trans_date', 'desc');
 
             $grid->trans_id()->sortable();
@@ -89,7 +89,6 @@ class WgRefundsOrderController extends Controller
                 $filter->is('currency');
                 $filter->between('amount');
                 $filter->between('refund_date')->datetime();
-                $filter->is('processed')->select([1 => '已处理', 0 => '未处理']);
             });
 
             $grid->disableCreation();

@@ -63,7 +63,7 @@ class RepeatOrdersController extends Controller
             $grid->model()->leftJoin('shareasale_transactiondetail as std', 'ro.id', '=', 'std.order_number');
             $grid->model()->leftJoin('cj_commissions as cc', 'ro.id', '=', 'cc.order_id');
             $grid->model()->leftJoin('webgains_transaction as wt', 'ro.id', '=', 'wt.order_reference');
-            $grid->model()->orderBy('ro.status', 'asc');
+            $grid->model()->where('ro.status', '=', '0');
             $grid->model()->orderBy('ro.id', 'desc');
 
             $grid->id('Order Id')->sortable();
@@ -101,7 +101,6 @@ class RepeatOrdersController extends Controller
                 $filter->is('wg_trans_id');
                 $filter->between('wg_trans_date')->datetime();
                 $filter->between('wg_trans_amount');
-                $filter->is('status')->select([1 => '已处理', 0 => '未处理']);
             });
 
             $grid->disableCreation();

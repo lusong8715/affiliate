@@ -61,7 +61,7 @@ class SasRefundsOrderController extends Controller
             $grid->model()->from('refunds_order as ro');
             $grid->model()->join('shareasale_transactiondetail as td', 'ro.order_id', '=', 'td.order_number');
             $grid->model()->whereRaw('((td.original_currency = "" and td.trans_amount <> ro.amount) or (td.original_currency = ro.currency and td.original_currency_amount <> ro.amount))');
-            $grid->model()->orderBy('processed', 'asc');
+            $grid->model()->where('processed', '=', '0');
             $grid->model()->orderBy('trans_id', 'desc');
 
             $grid->trans_id()->sortable();
@@ -90,7 +90,6 @@ class SasRefundsOrderController extends Controller
                 $filter->is('currency');
                 $filter->between('amount');
                 $filter->between('refund_date')->datetime();
-                $filter->is('processed')->select([1 => '已处理', 0 => '未处理']);
             });
 
             $grid->disableCreation();

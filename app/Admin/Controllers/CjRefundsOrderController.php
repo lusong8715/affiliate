@@ -60,7 +60,7 @@ class CjRefundsOrderController extends Controller
             $grid->model()->select(DB::raw('ro.*, c.commission_id, c.posting_date'));
             $grid->model()->from('refunds_order as ro');
             $grid->model()->join('cj_commissions as c', 'ro.order_id', '=', 'c.order_id');
-            $grid->model()->orderBy('processed', 'asc');
+            $grid->model()->where('processed', '=', '0');
             $grid->model()->orderBy('posting_date', 'desc');
 
             $grid->commission_id()->sortable();
@@ -89,7 +89,6 @@ class CjRefundsOrderController extends Controller
                 $filter->is('currency');
                 $filter->between('amount');
                 $filter->between('refund_date')->datetime();
-                $filter->is('processed')->select([1 => '已处理', 0 => '未处理']);
             });
 
             $grid->disableCreation();
