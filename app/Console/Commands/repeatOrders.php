@@ -37,7 +37,7 @@ class repeatOrders extends Command
      * @return mixed
      */
     public function handle() {
-        $start = date('m/d/Y', strtotime('-7 day'));
+        $start = date('Y-m-d', strtotime('-7 day'));
         if ($this->option('start')) {
             $start = $this->option('start');
         }
