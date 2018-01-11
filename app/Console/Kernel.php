@@ -43,18 +43,18 @@ class Kernel extends ConsoleKernel
         $schedule->command('shareasale:transactiondetail')->dailyAt('20:00')->runInBackground();
         $schedule->command('shareasale:weeklyprogress')->cron('0 19 * * 1')->runInBackground();
         $schedule->command('shareasale:weeklyprogress')->cron('0 19 * * 5')->runInBackground();
-        $schedule->command('shareasale:affiliatetimespan')->cron('0 18 * * 1')->runInBackground();
+        $schedule->command('shareasale:affiliatetimespan')->cron('30 18 * * 1')->runInBackground();
         $schedule->command('shareasale:activitysummary')->cron('0 18 * * 1')->runInBackground();
-        $schedule->command('shareasale:todayataglance')->dailyAt('20:00')->runInBackground();
-        $schedule->command('shareasale:staterevenue')->cron('0 19 * * 1')->runInBackground();
+        $schedule->command('shareasale:todayataglance')->dailyAt('19:40')->runInBackground();
+        $schedule->command('shareasale:staterevenue')->cron('10 19 * * 1')->runInBackground();
         $schedule->command('shareasale:transactioneditreport')->cron('0 3 * * 1')->runInBackground();
-        $schedule->command('shareasale:transactionvoidreport')->cron('0 3 * * 1')->runInBackground();
+        $schedule->command('shareasale:transactionvoidreport')->cron('30 3 * * 1')->runInBackground();
         $schedule->command('shareasale:ledger')->cron('0 21 * * 1')->runInBackground();
         $schedule->command('shareasale:bannerreport')->cron('0 5 * * 1')->runInBackground();
         $schedule->command('shareasale:bannerlist')->dailyAt('17:00')->runInBackground();
-        $schedule->command('shareasale:deallist')->dailyAt('17:00')->runInBackground();
+        $schedule->command('shareasale:deallist')->dailyAt('17:20')->runInBackground();
         $schedule->command('cj:commissions')->dailyAt('21:00')->runInBackground();
-        $schedule->command('wg:transaction')->dailyAt('21:00')->runInBackground();
+        $schedule->command('wg:transaction')->dailyAt('21:10')->runInBackground();
         $schedule->command('repeat:order')->dailyAt('16:00')->runInBackground();
     }
 }
