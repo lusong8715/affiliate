@@ -55,6 +55,6 @@ class Kernel extends ConsoleKernel
         $schedule->command('shareasale:deallist')->dailyAt('17:20')->runInBackground();
         $schedule->command('cj:commissions')->dailyAt('21:00')->runInBackground();
         $schedule->command('wg:transaction')->dailyAt('21:10')->runInBackground();
-        $schedule->command('repeat:order')->cron('0 */2 * * *')->runInBackground();
+        $schedule->command('repeat:order')->hourly()->runInBackground();
     }
 }
