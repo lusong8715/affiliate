@@ -47,6 +47,7 @@ class HomeController extends Controller
                     $months = array();
                     $y = date('Y');
                     $m = date('m');
+                    $endDate = $y . '-' . $m . '-1';
                     $cnt = 6;
                     while ($cnt > 0) {
                         $m--;
@@ -61,7 +62,6 @@ class HomeController extends Controller
                     $months = array_reverse($months);
                     $dates = array_reverse($dates);
                     $startDate = $dates[0] . '-1';
-                    $endDate = $y . $m . '-1';
                     $result = DB::select("select month(trans_date) as mon, sum(trans_amount) as amount from shareasale_transactiondetail where trans_date >= ? and trans_date < ? group by mon", [$startDate, $endDate]);
                     $sasDatas = $this->_getAmountForMonth($months, $result);
                     $result = DB::select("select month(posting_date) as mon, sum(sale_amount) as amount from cj_commissions where posting_date >= ? and posting_date < ? group by mon", [$startDate, $endDate]);
