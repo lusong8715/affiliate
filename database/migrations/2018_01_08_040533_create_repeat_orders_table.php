@@ -13,9 +13,9 @@ class CreateRepeatOrdersTable extends Migration
     public function up()
     {
         Schema::create('repeat_orders', function (Blueprint $table) {
-            $table->string('id');
+            $table->increments('id');
+            $table->string('order_num');
             $table->string('status', 1)->default('0');
-            $table->primary('id');
         });
     }
 

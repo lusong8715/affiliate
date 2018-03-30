@@ -60,13 +60,14 @@ class RepeatOrdersController extends Controller
 
             $grid->model()->select(DB::raw('ro.*, std.trans_id as sas_trans_id, std.trans_date as sas_trans_date, std.trans_amount as sas_trans_amount, cc.commission_id as cj_commission_id, cc.posting_date as cj_posting_date, cc.sale_amount as cj_sale_amount, wt.id as wg_trans_id, wt.date as wg_trans_date, wt.value as wg_trans_amount'));
             $grid->model()->from('repeat_orders as ro');
-            $grid->model()->leftJoin('shareasale_transactiondetail as std', 'ro.id', '=', 'std.order_number');
-            $grid->model()->leftJoin('cj_commissions as cc', 'ro.id', '=', 'cc.order_id');
-            $grid->model()->leftJoin('webgains_transaction as wt', 'ro.id', '=', 'wt.order_reference');
+            $grid->model()->leftJoin('shareasale_transactiondetail as std', 'ro.order_num', '=', 'std.order_number');
+            $grid->model()->leftJoin('cj_commissions as cc', 'ro.order_num', '=', 'cc.order_id');
+            $grid->model()->leftJoin('webgains_transaction as wt', 'ro.order_num', '=', 'wt.order_reference');
             $grid->model()->where('ro.status', '=', '0');
             $grid->model()->orderBy('ro.id', 'desc');
 
-            $grid->id('Order Id')->sortable();
+            $grid->id('ID')->sortable();
+            $grid->order_num('Order ID')->sortable();
             $grid->sas_trans_id()->sortable();
             $grid->sas_trans_date()->sortable();
             $grid->sas_trans_amount()->sortable();
@@ -87,11 +88,7 @@ class RepeatOrdersController extends Controller
             $grid->filter(function ($filter) {
                 $filter->useModal();
                 $filter->disableIdFilter();
-                $filter->where(function ($query) {
-                    if ($this->input) {
-                        $query->whereRaw('ro.id = ' . $this->input);
-                    }
-                }, 'Order Id');
+                $filter->like('order_num');
                 $filter->is('sas_trans_id');
                 $filter->between('sas_trans_date')->datetime();
                 $filter->between('sas_trans_amount');

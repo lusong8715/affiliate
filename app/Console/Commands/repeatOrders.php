@@ -53,10 +53,10 @@ class repeatOrders extends Command
         );
 
         foreach ($rows as $row) {
-            $ro = RepeatOrder::find($row->order_id);
-            if (!$ro) {
+            $ro = RepeatOrder::where('order_num', '=', $row->order_id)->get();
+            if (!count($ro)) {
                 $ro = new RepeatOrder();
-                $ro->id = $row->order_id;
+                $ro->order_num = $row->order_id;
                 $ro->save();
             }
         }
