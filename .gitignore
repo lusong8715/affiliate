@@ -1,0 +1,5 @@
+/vendor
+/public/storage
+/public/upload
+.env
+/.idea
